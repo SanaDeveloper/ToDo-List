@@ -4,8 +4,32 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>to-do-list</title>
+	<!-- css links -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <header>
+    	<h1>Task List 2023</h1>
+    	<form id="new-task-form">
+    		<input type="text" name="" id="new-task-input" placeholder="what do you have planned?">
+    		<input type="submit" name="" id="new-task-submit" value="add-task">
+    	</form>
+    </header>
+    <main>
+    	<section class="task-list">
+    		<h2>Tasks</h2>
+    		<div class="tasks">
+    			<div class="content">
+    				<input type="text" name="" class="text" value="my shiny task" readonly>
+    			</div>
+    			<div class="actions">
+    				<button class="edit">Edit</button>
+    				<button class="delete">delete</button>
 
+    			</div>
+    		</div>
+    	</section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
