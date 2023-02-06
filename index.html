@@ -10,7 +10,7 @@
 <body>
     <header>
     	<h1>Task List 2023</h1>
-    	<form id="new-task-form">
+    	<form id="new-task-form" action="">
     		<input type="text" name="" id="new-task-input" placeholder="what do you have planned?">
     		<input type="submit" name="" id="new-task-submit" value="add-task">
     	</form>
@@ -18,18 +18,21 @@
     <main>
     	<section class="task-list">
     		<h2>Tasks</h2>
-    		<div class="tasks">
-    			<div class="content">
-    				<input type="text" name="" class="text" value="my shiny task" readonly>
-    			</div>
-    			<div class="actions">
-    				<button class="edit">Edit</button>
-    				<button class="delete">delete</button>
+    		<div id="tasks">
+    			<!-- <div class="task">
+		    			<div class="content">
+		    				<input type="text" name="" class="text" value="my shiny task" readonly  >
+		    			</div>
+    				<div class="actions">
+	    				<button class="edit">Edit</button>
+	    				<button class="delete">delete</button>
+    				</div>
+    			</div>	
+    		</div> -->
 
-    			</div>
-    		</div>
     	</section>
     </main>
+
     <script src="script.js"></script>
 </body>
 </html>
